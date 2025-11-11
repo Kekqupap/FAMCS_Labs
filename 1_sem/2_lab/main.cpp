@@ -34,6 +34,12 @@ int main()
         for(int i=0; i<n; i++)
             cin >> arr[i];
     }
+    cout << "Your array is: ";
+    for (int i=0; i<n; i++)
+    {
+        cout << arr[i] << ' ';
+    }
+    cout << endl;
     double p;
     int amountLessP = 0;
     cout << "Enter P, to find all elements, that less than P: ";
@@ -50,5 +56,16 @@ int main()
     for(int i=posLastNeg+1; i<n; i++)
         sumOfIntPart+=floor(arr[i]);
     cout << "Sum of integer parts of elements after last negative elemnt: " << sumOfIntPart << endl;
+    for (int i=0; i<n; i++)
+        if (arr[i]<p)
+            for (int j=i-1; j>=0; j--)
+                if(arr[j]>=p)
+                {
+                    swap(arr[i], arr[j]);
+                    swap(i, j);
+                }
+    cout << "Now, your array is: ";
+    for (int i=0; i<n; i++)
+        cout << arr[i] << ' ';
     return 0;
 }
