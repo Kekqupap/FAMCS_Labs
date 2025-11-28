@@ -59,7 +59,10 @@ int main()
     }
     double avgOfAllStudents = 0;
     for(int i=0; i<allStudents.size(); i++)
+    {
+        cout << endl << *allStudents[i];
         avgOfAllStudents+=allStudents[i]->avgMark();
-    cout << "Avarage mark of all students is " << avgOfAllStudents/allStudents.size();
+    }
+    cout << endl << "Avarage mark of all students is " << avgOfAllStudents/allStudents.size();
     return 0;
 }
