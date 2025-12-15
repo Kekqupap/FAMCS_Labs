@@ -1,3 +1,0 @@
-CalcTest.Add 1 0.0175251
-CalcTest.DivideByZero 1 0.033525
----

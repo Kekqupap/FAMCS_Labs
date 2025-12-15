@@ -1,5 +1,0 @@
-if(EXISTS "C:/IF/fpmi/fixed tests/build/tests/calc_tests[1]_tests.cmake")
-  include("C:/IF/fpmi/fixed tests/build/tests/calc_tests[1]_tests.cmake")
-else()
-  add_test(calc_tests_NOT_BUILT calc_tests_NOT_BUILT)
-endif()
