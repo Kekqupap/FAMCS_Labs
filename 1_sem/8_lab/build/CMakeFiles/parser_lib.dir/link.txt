@@ -1,0 +1,2 @@
+C:\msys64\ucrt64\bin\ar.exe qc libparser_lib.a CMakeFiles/parser_lib.dir/src/Par.cpp.obj
+C:\msys64\ucrt64\bin\ranlib.exe libparser_lib.a

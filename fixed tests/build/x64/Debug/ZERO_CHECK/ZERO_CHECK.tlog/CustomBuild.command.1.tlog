@@ -1,0 +1,10 @@
+^C:\IF\FPMI\FIXED TESTS\BUILD\CMAKEFILES\F3900185190FAA925A1CBE5597A431BC\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" "-SC:/IF/fpmi/fixed tests" "-BC:/IF/fpmi/fixed tests/build" --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file "C:/IF/fpmi/fixed tests/build/CppCalculator.sln"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

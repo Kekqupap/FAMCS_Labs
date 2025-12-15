@@ -1,0 +1,5 @@
+add_test([=[CalcTest.Add]=]  [==[C:/IF/fpmi/fixed tests/build/tests/Debug/calc_tests.exe]==] [==[--gtest_filter=CalcTest.Add]==] --gtest_also_run_disabled_tests)
+set_tests_properties([=[CalcTest.Add]=]  PROPERTIES WORKING_DIRECTORY [==[C:/IF/fpmi/fixed tests/build/tests]==] SKIP_REGULAR_EXPRESSION [==[\[  SKIPPED \]]==])
+add_test([=[CalcTest.DivideByZero]=]  [==[C:/IF/fpmi/fixed tests/build/tests/Debug/calc_tests.exe]==] [==[--gtest_filter=CalcTest.DivideByZero]==] --gtest_also_run_disabled_tests)
+set_tests_properties([=[CalcTest.DivideByZero]=]  PROPERTIES WORKING_DIRECTORY [==[C:/IF/fpmi/fixed tests/build/tests]==] SKIP_REGULAR_EXPRESSION [==[\[  SKIPPED \]]==])
+set(  calc_tests_TESTS CalcTest.Add CalcTest.DivideByZero)

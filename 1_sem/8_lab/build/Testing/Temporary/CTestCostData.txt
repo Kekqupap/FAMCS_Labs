@@ -1,0 +1,16 @@
+CalculatorTests 1 0.110199
+StackTest.BasicOperations 1 0.0098571
+ParserTest.ParseNumber 1 0.0096659
+ParserTest.ParseAddition 1 0.0088293
+ParserTest.ParseMultiplication 1 0.0093988
+ParserTest.ParseDivision 1 0.0099354
+ParserTest.ParseComplexExpression 1 0.0090268
+ParserTest.ParseWithParentheses 1 0.008094
+ParserTest.ParseUnaryMinus 1 0.0083333
+ParserTest.ParseSin 1 0.0087324
+ParserTest.ParseCos 1 0.0086265
+ParserTest.ParsePower 1 0.0090665
+ParserTest.ParseMod 1 0.0080086
+ParserTest.InvalidExpressionThrows 1 0.0097594
+ParserTest.UnmatchedParenthesesThrows 1 0.0084186
+---

@@ -1,0 +1,1 @@
+-isystem "C:/IF/fpmi/1_sem/8_lab/build/_deps/googletest-src/googlemock/include" -isystem "C:/IF/fpmi/1_sem/8_lab/build/_deps/googletest-src/googlemock" -isystem "C:/IF/fpmi/1_sem/8_lab/build/_deps/googletest-src/googletest/include" -isystem "C:/IF/fpmi/1_sem/8_lab/build/_deps/googletest-src/googletest"

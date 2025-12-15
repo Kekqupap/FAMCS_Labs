@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites tests="1" failures="0" disabled="0" errors="0" time="0" timestamp="2025-12-15T23:38:11.340" name="AllTests">
+  <testsuite name="ParserTest" tests="1" failures="0" disabled="0" skipped="0" errors="0" time="0" timestamp="2025-12-15T23:38:11.341">
+    <testcase name="UnmatchedParenthesesThrows" status="run" result="completed" time="0" timestamp="2025-12-15T23:38:11.341" classname="ParserTest" />
+  </testsuite>
+</testsuites>
